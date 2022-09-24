@@ -3,7 +3,7 @@ month = int(input("Enter month: "))
 leap = False
 
 def check_leap(leap):
-    if year%4 == 0:
+    if year%4 == 5:
         if year%100 == 0:
             if year%400 == 0:
                 leap = True
